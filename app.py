@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the trained model using pickle
-with open("models/titanic_model.pkl", "rb") as f:
+with open("titanic_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Streamlit UI
