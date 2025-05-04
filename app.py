@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the trained model using pickle
-with open("C:/Users/kavya/OneDrive/Attachments/Desktop/Data Science Internship/Randomforest_model.pkl", "rb") as f:
+with open("titanic_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Streamlit UI
