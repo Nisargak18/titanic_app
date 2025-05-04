@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the trained model using joblib
-model = joblib.load("models/titanic_model.pkl")
+model = joblib.load("titanic_model.pkl")
 
 # Streamlit UI
 st.title("🚢 Titanic Survival Prediction")
